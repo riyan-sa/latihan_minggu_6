@@ -1,0 +1,113 @@
+.flex-container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+}
+
+.flex-container > div{
+    background-color: pink;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: antiquewhite;
+    color: pink;
+}
+
+p{
+  border: 5px solid pink;
+  margin: 15px 10px 10px 10px;
+  padding: 10px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid pink;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: pink;
+  color : white;
+}
+
+div.relative {
+  position: relative;
+  height: 250px;
+  width: 500px;
+  border: 3px solid pink;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 150px;    
+  border: 3px solid pink;
+}
+
+#rcorners1 {
+    border-radius: 15px 50px;
+    background: pink;
+    color: white;
+    padding: 20px; 
+    width: 150px;
+    height: 100px; 
+}
+
+img {
+    border-radius: 20px 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: pink;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
